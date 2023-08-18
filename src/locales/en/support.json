@@ -1,0 +1,23 @@
+{
+    "faq": "FAQ",
+    "contact": "Contact",
+    "email": "Email",
+    "questions": [
+        {
+            "title": "The proxy is not loading",
+            "answer": "try refreshing idiot. if it doesnt work ur just stupid and u cant load it and im not fixing it"
+        },
+        {
+            "title": "Where can I obtain more links to Wii Proxy?",
+            "answer": "you dont."
+        },
+        {
+            "title": "Is my information secure?",
+            "answer": "no i sell this information everywhere."
+        },
+        {
+            "title": "Can you self-host Wii Proxy?",
+            "answer": "no i gatekeep the source"
+        }
+    ]
+}

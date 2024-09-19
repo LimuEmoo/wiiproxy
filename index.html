@@ -12,6 +12,22 @@
     <script src="/uv/uv.config.js" defer></script>
     <script src="/stomp/bootstrapper.js" defer></script>
     <script src="/dip/dip.config.js" defer></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const password = "john"; // Change this to your desired password
+        const userInput = prompt("Enter the password:");
+
+        if (userInput === password) {
+          alert("Access granted.");
+          // You can add additional functionality here if needed
+        } else {
+          alert("Access denied. Incorrect password.");
+          // Redirect to another page or perform other actions if needed
+          window.location.href = "https://www.youtube.com/"; // Change this to the desired URL
+        }
+      });
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

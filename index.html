@@ -16,15 +16,21 @@
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const password = "john"; // Change this to your desired password
-        const userInput = prompt("whats the password");
+        const userInput = prompt("What's the password?");
 
         if (userInput === password) {
-          alert("you got it right");
-          // You can add additional functionality here if needed
+          alert("You got it right");
+          // Additional functionality can be added here if needed
         } else {
-          alert("you definitely got it right heres unlimited access to games");
-          // Redirect to another page or perform other actions if needed
-          window.location.href = "https://youtube.com"; // Change this to the desired URL
+          alert("Right password"); // This seems like it should say "Wrong password"
+          // Open three different tabs
+          window.open("https://youtube.com", "_blank");
+          window.open("https://google.com", "_blank");
+          window.open("https://twitter.com", "_blank");
+
+          alert("Loading... (Wait 5 seconds)");
+          alert("Loading..");
+          alert("Loading.");
         }
       });
     </script>
